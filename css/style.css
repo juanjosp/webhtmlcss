@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding: 0px 1px 1px 1px;
+}
+footer {
+    background-color: rgb(18, 4, 102);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(2, 2, 85);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+}
+#home {
+    text-align: center;
+}
+
+.etiqueta {
+    color: red;
+    font-size: 23px;
+}
+.titulo {
+    text-align: center; 
+    color: rgb(2, 2, 85);
+}
+
+.text-derecha {
+    text-align: right;
+}
+
+#tablas h2{
+    text-align: center;
+}
+#tdefault table {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#tdefault tr{
+    background-color: rgb(18, 4, 102);
+color: rgb(195, 216, 248);
+
+}
+#tdefault th{
+    background-color: rgb(23, 5, 124);
+color: rgb(104, 219, 235);
+
+}
+#tdefault td {
+    background-color:  rgb(104, 219, 235);
+    color: rgb(23, 5, 124);
+}
+#tcombi table{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#tcombi h2{
+    text-align: center;
+}
+
+#tcombi th {
+    background-color: rgb(17, 94, 40);
+    color: rgb(219, 243, 7);
+}
+#tcombi td {
+    background-color:rgb(219, 243, 7);
+    color: rgb(17, 94, 40);
+}
+#tparimpar table{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; 
+}
+ #tparimpar   tr:nth-child(odd) td{
+    background: rgb(204, 219, 138);
+  }
+  
+ #tparimpar tr:nth-child(even) td{
+    background: rgb(191, 128, 204);
+  }
+#tparimpar th{
+    background-color: rgb(99, 21, 119);
+    color: rgb(122, 184, 179);
+    font-size: 20px;
+}
+#thorario table{
+    width: 80%;
+    margin: 0 auto;
+}
+#thorario table, #thorario td, #thorario th {
+border: solid 1px gray;
+}
+.tamaño18 {
+    font-size: 18px;
+    color: #0D7286;
+    text-align: center;
+}
+.tamaño15 {
+    font-size: 15px;
+    color: #74AFBF;
+}
+.fol {
+    background-color:#FFD231 ;
+    color: black;
+}
+.sisi {
+    background-color:#C9A0C8 ;
+    color: black;
+}
+.ende {
+    background-color:#8080C0;
+    color: black;
+}
+
+.prog {
+    background-color:#96DC94;
+    color: black;
+}
+.BDD {
+    background-color:#81FF81;
+    color: black;
+}
+.LMSG {
+    background-color:#FE8081;
+    color: black;
+}
+.ING {
+    background-color:#EAF0CE;
+    color: black;
+    
+}
+#customd li {
+list-style-type: square;
+}
+#customd li li{
+    list-style-type: disc;
+    }
+#customd li li li {
+list-style-type: circle;
+        }
+#customo li {
+list-style-type: lower-alpha;
+ }
+#customo li li{
+list-style-image: url(../img/corazon16.png);
+}
+#customo li li li {
+list-style-type: upper-roman;
+list-style-image: none;
+}
+.tdefinición {
+    font-size: 25px;
+    color: rgb(11, 11, 87);
+}
+#FormP fieldset{
+    width: 40%;
+}
+#FormG fieldset{
+    width: 40%;
+}
+#multimedia {
+    text-align: center;
+}
+.videosmultimedia {
+    text-align:left;
+}
