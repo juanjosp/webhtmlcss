@@ -4,7 +4,7 @@ body {
 #container {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb(18, 4, 102);
 }
 
 header img {
